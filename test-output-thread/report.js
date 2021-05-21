@@ -1,47 +1,43 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "79425641-4eae-42ea-b7dd-b107f058abf5",
-    "feature": "Google serch page validation",
-    "scenario": "Google page title",
-    "start": 1621582166406,
-    "group": 12,
-    "content": "",
-    "tags": "",
-    "end": 1621582187932,
-    "className": "passed"
-  },
-  {
-    "id": "7d606a2d-23ec-4f68-b6bf-3c8b18114fde",
+    "id": "91741424-dd72-4203-bb9e-80f4671db3c7",
     "feature": "Account Page Feature",
     "scenario": "Accounts page title",
-    "start": 1621582166402,
-    "group": 11,
+    "start": 1621594076757,
+    "group": 1,
     "content": "",
     "tags": "",
-    "end": 1621582188916,
+    "end": 1621594106619,
     "className": "failed"
   },
   {
-    "id": "938a0a18-cc25-41df-a833-a0d8a943a98d",
+    "id": "fab92252-3e53-466c-a003-c54ce5ba3031",
     "feature": "Google serch page validation",
-    "scenario": "Check the search box",
-    "start": 1621582187948,
-    "group": 12,
+    "scenario": "Google page title",
+    "start": 1621594106670,
+    "group": 1,
     "content": "",
     "tags": "",
-    "end": 1621582200788,
+    "end": 1621594126745,
+    "className": "passed"
+  },
+  {
+    "id": "bd2654af-10e3-400f-800b-4b9100a6d3e3",
+    "feature": "Google serch page validation",
+    "scenario": "Check the search box",
+    "start": 1621594126755,
+    "group": 1,
+    "content": "",
+    "tags": "",
+    "end": 1621594138608,
     "className": "failed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 11,
-    "content": "Thread[pool-1-thread-1,5,main]"
-  },
-  {
-    "id": 12,
-    "content": "Thread[pool-1-thread-2,5,main]"
+    "id": 1,
+    "content": "Thread[main,5,main]"
   }
 ]);
 });
